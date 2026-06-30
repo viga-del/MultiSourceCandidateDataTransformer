@@ -1,0 +1,18 @@
+{
+  "_comment": "Projection configuration. The 'fields' array controls which fields appear in the final output JSON. Remove a field name from this list to exclude it from output — no code change needed. This implements Module 11 (Configurable Projection) from the assignment.",
+  "fields": [
+    "candidate_id",
+    "full_name",
+    "emails",
+    "phones",
+    "location",
+    "links",
+    "headline",
+    "years_experience",
+    "skills",
+    "experience",
+    "education",
+    "provenance",
+    "overall_confidence"
+  ]
+}

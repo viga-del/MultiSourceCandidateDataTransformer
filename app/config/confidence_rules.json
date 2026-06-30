@@ -1,0 +1,22 @@
+{
+  "_comment": "Base confidence scores per source. These are starting weights. A field found in multiple sources gets a boosted score calculated in confidence_calculator.py.",
+  "base_confidence": {
+    "Resume":   0.95,
+    "CSV":      0.90,
+    "JSON":     0.90,
+    "LinkedIn": 0.85,
+    "GitHub":   0.75,
+    "Notes":    0.70
+  },
+  "_comment2": "Boost applied per additional source that confirms the same value. E.g. if Java appears in Resume (0.95) and GitHub (0.75), the final confidence is capped at 0.99.",
+  "multi_source_boost": 0.05,
+  "max_confidence": 0.99,
+  "_comment3": "Field weights used when calculating overall_confidence. Fields that matter more to recruiters get a higher weight.",
+  "field_weights": {
+    "full_name": 0.20,
+    "emails":    0.20,
+    "phones":    0.15,
+    "skills":    0.25,
+    "experience":0.20
+  }
+}

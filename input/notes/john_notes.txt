@@ -1,0 +1,11 @@
+Candidate: John Doe
+Email: john@gmail.com
+Phone: 9876543210
+
+John has excellent communication skills and is a strong team player.
+He worked at Infosys as a Backend Developer for 3 years.
+He is very skilled in Java and Spring Boot.
+He also knows Docker and MySQL.
+John is interested in Backend Development and cloud technologies.
+He is familiar with AWS and REST APIs.
+Currently looking for senior backend roles.

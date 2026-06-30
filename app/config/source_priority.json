@@ -1,0 +1,11 @@
+{
+  "_comment": "Source priority for conflict resolution. Lower number = higher priority. When two sources disagree on the same field (e.g. name), the source with the lowest number wins.",
+  "priority": {
+    "Resume":   1,
+    "CSV":      2,
+    "JSON":     2,
+    "LinkedIn": 3,
+    "GitHub":   4,
+    "Notes":    5
+  }
+}

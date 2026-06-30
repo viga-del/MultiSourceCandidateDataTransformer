@@ -1,0 +1,34 @@
+{
+  "fullName": "John Doe",
+  "email": "john@gmail.com",
+  "phone": "9876543210",
+  "headline": "Backend Developer",
+  "location": {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India"
+  },
+  "skills": ["Java", "Spring Boot", "MySQL", "Docker", "REST API"],
+  "experience": [
+    {
+      "company": "Infosys",
+      "title": "Backend Developer",
+      "startDate": "Jan 2022",
+      "endDate": "Present",
+      "description": "Developed REST APIs using Spring Boot and MySQL."
+    }
+  ],
+  "education": [
+    {
+      "institution": "KPR Institute of Engineering and Technology",
+      "degree": "B.E.",
+      "fieldOfStudy": "Computer Science",
+      "startYear": 2022,
+      "endYear": 2026
+    }
+  ],
+  "links": {
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe"
+  }
+}

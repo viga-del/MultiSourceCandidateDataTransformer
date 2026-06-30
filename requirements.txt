@@ -1,0 +1,32 @@
+# requirements.txt
+# Dependencies for the Candidate Data Transformer CLI (no web/browser UI).
+
+# PDF text extraction — pdfplumber reads text from PDF resumes
+pdfplumber==0.11.0
+
+# DOCX extraction — python-docx reads Word document resumes
+python-docx==1.1.2
+
+# HTTP client — httpx is used to call the GitHub API
+httpx==0.27.0
+
+# Phone number parsing and normalization — converts any phone format to E.164
+phonenumbers==8.13.37
+
+# Email validation — checks that an email address is syntactically valid
+email-validator==2.1.1
+
+# JSON Schema validation — validates the final candidate JSON against a schema
+jsonschema==4.22.0
+
+# CSV and data handling — pandas reads CSV files easily
+pandas==2.2.2
+
+# Fuzzy string matching — used in deduplication to detect near-duplicate names
+rapidfuzz==3.9.3
+
+# Date parsing — parses natural language dates like "Jan 2023"
+python-dateutil==2.9.0
+
+# Environment variables — loads .env files for GitHub tokens etc.
+python-dotenv==1.0.1
